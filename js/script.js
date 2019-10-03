@@ -12,7 +12,6 @@ function addToList(){
     document.getElementById("list").innerHTML += "<li>" + newItem + "</li>";
     items.push(newItem);
     document.getElementById("inputBox").reset();
-    console.log(items);
   } else {
     console.log("Please make sure input a value");
   }
